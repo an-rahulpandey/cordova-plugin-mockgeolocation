@@ -1,0 +1,16 @@
+{
+  "name": "mockgeolocation",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-rahul-me-mockgeolocation",
+    "platforms": [
+      "android" 
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": ""
+}

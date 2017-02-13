@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="me.rahul.plugins.mockgeolocation" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>mockgeolocation</name>
+     <description>Detect Fake Geolocation Coordinates</description>
+     <license>Apache 2.0</license>
+     <author>Rahul Pandey</author>
+     <engines>
+        <engine name="cordova" version=">=3.0.0" />
+     </engines>
+    <js-module name="mockgeolocation" src="www/mockgeolocation.js">
+        <clobbers target="window.plugins.mockgeolocation" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="mockgeolocation">
+                <param name="android-package" value="me.rahul.plugins.mockgeolocation.mockgeolocation" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml">
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+            <uses-feature android:name="android.hardware.location.gps" />
+        </config-file>
+        <source-file src="src/android/mockgeolocation.java" target-dir="src/me/rahul/plugins/mockgeolocation/" />
+        <framework src="com.google.android.gms:play-services-location:+" />
+    </platform>
+</plugin>
