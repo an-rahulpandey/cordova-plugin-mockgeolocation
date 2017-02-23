@@ -4,6 +4,7 @@
      <description>Detect Fake Geolocation Coordinates</description>
      <license>Apache 2.0</license>
      <author>Rahul Pandey</author>
+    <keywords>cordova fake geolocation, cordova mock geolocation, phonegap fake geolocation, phonegap mock geolocation, fake geolocation, mock geolocation</keywords>
      <engines>
         <engine name="cordova" version=">=3.0.0" />
      </engines>
