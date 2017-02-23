@@ -10,7 +10,13 @@
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-android"
+    "cordova-android",
+    "cordova mock geolocation",
+    "phonegap mock geolocation",
+    "cordova fake geolocation",
+    "phonegap fake geolocation",
+    "fake geolocation",
+    "mock geolocation"
   ],
   "author": ""
 }
