@@ -1,6 +1,6 @@
 {
   "name": "mockgeolocation",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "",
   "cordova": {
     "id": "cordova-plugin-rahul-me-mockgeolocation",
